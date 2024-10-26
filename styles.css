@@ -13,6 +13,10 @@ nav {
   font-weight: 700;
   align-items: center;
   padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
 }
 
 .menu {
@@ -27,6 +31,7 @@ li {
 .additionalmenu {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .additionalmenu > button {

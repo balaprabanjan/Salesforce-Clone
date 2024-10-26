@@ -200,12 +200,12 @@ header > img {
   background-color: white;
 }
 
-.section3{
+.section3 {
   display: flex;
   justify-content: center;
 }
 
-.subsection{
+.subsection {
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -216,14 +216,14 @@ header > img {
   max-width: 800px;
   text-align: center;
 }
-.subsection> h3{
+.subsection > h3 {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
   color: #032d60;
 }
 
-.subsection > p{
+.subsection > p {
   text-align: center;
   font-size: 18px;
 }
@@ -246,13 +246,12 @@ header > img {
   background-color: white;
 }
 
-.sec4{
+.sec4 {
   display: flex;
   justify-content: center;
 }
 
-
-.subs4{
+.subs4 {
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -264,40 +263,58 @@ header > img {
   text-align: center;
 }
 
-.subs4 > h3{
+.subs4 > h3 {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
   color: #032d60;
 }
-.subs4 > p{
+.subs4 > p {
   text-align: center;
   font-size: 18px;
 }
 
-.module{
+.module {
   display: flex;
-  flex-direction: column;
+  gap: 60px;
+  padding: 50px;
 }
+
 .submodule {
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   flex-grow: 0;
   flex-shrink: 1;
   background-color: white;
-}
-.submodule > img {
-  width: 100%;
+  padding: 30px 20px;
 }
 
-.submodule > div {
+.submodule > div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+}
+
+.submodule > div > img {
+  width: 100px;
+}
+
+.submodule > div:nth-of-type(2) {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 20px 20px;
+  margin-top: 40px;
 }
 
 .submodule > div > p:nth-of-type(1) {
+  background-color: #57a3fd;
+  color: white;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 20px;
+  opacity: 60;
+}
+
+.submodule > div > p:nth-of-type(2) {
   font-size: 18px;
   color: #032d60;
   font-weight: 700;

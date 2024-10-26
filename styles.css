@@ -199,3 +199,111 @@ header > img {
   border-radius: 10px;
   background-color: white;
 }
+
+.section3{
+  display: flex;
+  justify-content: center;
+}
+
+.subsection{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+.subsection> h3{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #032d60;
+}
+
+.subsection > p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.subsection > div > button:nth-of-type(1) {
+  background-color: #57a3fd;
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.subsection > div > button:nth-of-type(2) {
+  color: #57a3fd;
+  font-weight: 700;
+  padding: 10px 40px;
+  border: 3px solid #57a3fd;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.sec4{
+  display: flex;
+  justify-content: center;
+}
+
+
+.subs4{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.subs4 > h3{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #032d60;
+}
+.subs4 > p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.module{
+  display: flex;
+  flex-direction: column;
+}
+.submodule {
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  flex-grow: 0;
+  flex-shrink: 1;
+  background-color: white;
+}
+.submodule > img {
+  width: 100%;
+}
+
+.submodule > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 20px;
+}
+
+.submodule > div > p:nth-of-type(1) {
+  font-size: 18px;
+  color: #032d60;
+  font-weight: 700;
+}
+
+.submodule > div > a {
+  color: #032d60;
+  font-weight: 500;
+}

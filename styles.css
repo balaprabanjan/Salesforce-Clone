@@ -377,4 +377,5 @@ header > img {
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   padding: 50px 50px;
+  
 }

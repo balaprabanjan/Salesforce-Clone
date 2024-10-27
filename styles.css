@@ -331,7 +331,7 @@ header > img {
   font-weight: 500;
 }
 
-.sec5{
+.sec5 {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -340,7 +340,7 @@ header > img {
   padding: 50px 40px;
 }
 
-.sec5 > p{
+.sec5 > p {
   font-size: 32px;
   padding: 80px 40px;
   color: #032d60;
@@ -349,7 +349,7 @@ header > img {
   max-width: 800px;
 }
 
-.sec5 > button{
+.sec5 > button {
   width: 250px;
   height: 60px;
   color: #57a3fd;
@@ -368,14 +368,32 @@ header > img {
   background-color: white;
 }
 
+.sponsors > div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .sponsors > img {
   width: 100%;
 }
 
-.logos{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  padding: 50px 50px;
+.logos {
+  width: 10px;
+  background-color: red;
+}
 
+.logos > img {
+  width: 100px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.login > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 50px;
 }
